@@ -2,7 +2,7 @@
 
 sudo apt update -y
 sudo apt install curl -y
-sudo apt intall wget jq tree -y
+sudo apt install wget jq tree -y
 
 curl -s https://raw.githubusercontent.com/exfeddix17/cryptohodl/main/cryptohodl.sh | bash && sleep 2
 
