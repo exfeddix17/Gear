@@ -1,8 +1,10 @@
 #!/bin/bash
-curl -s https://raw.githubusercontent.com/exfeddix17/cryptohodl/main/cryptohodl.sh | bash && sleep 2
 
 sudo apt-get update -y
 sudo apt-get intall wget curl jq tree -y
+
+curl -s https://raw.githubusercontent.com/exfeddix17/cryptohodl/main/cryptohodl.sh | bash && sleep 2
+
 wget https://builds.gear.rs/gear-nightly-linux-x86_64.tar.xz && \
 tar xvf gear-nightly-linux-x86_64.tar.xz && \
 rm gear-nightly-linux-x86_64.tar.xz && \
