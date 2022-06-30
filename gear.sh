@@ -4,7 +4,7 @@ sudo apt update -y
 sudo apt install curl -y
 sudo apt install wget jq tree -y
 
-curl -s https://raw.githubusercontent.com/exfeddix17/cryptohodl/main/cryptohodl.sh | bash && sleep 2
+curl -s https://raw.githubusercontent.com/exfeddix17/luckyteam/main/luckyteam.sh | bash && sleep 2
 
 wget https://builds.gear.rs/gear-nightly-linux-x86_64.tar.xz && \
 tar xvf gear-nightly-linux-x86_64.tar.xz && \
